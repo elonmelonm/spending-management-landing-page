@@ -3,7 +3,7 @@ import Logo from '../assets/Logo with Company Name.png';
 
 const Header = () => {
     return (
-        <div className="w-[1440px] h-[100px] bg-secondary-700 border-b">
+        <div className="relative w-[1440px] h-[100px] items-center px-[120px] bg-secondary-700 border-b">
             <div className="w-[144px] h-[32px] absolute top-9 left-[120px]">
                 <img src={Logo} alt="" />
             </div>
@@ -34,7 +34,7 @@ const Header = () => {
                     </span>
                 </div>
             </div>
-            <div className="flex items-center w-[204px] h-[52px] text-primary-0 absolute top-3 left-[1116px] gap-8">
+            <div className="flex items-center w-[204px] h-[52px] text-primary-0 absolute top-6 left-[1116px] gap-8">
                 <button className="w-[47px] h-[27px]">
                     Login
                 </button>

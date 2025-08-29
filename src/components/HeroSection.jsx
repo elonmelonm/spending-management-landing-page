@@ -3,7 +3,7 @@ import Dashboard from '../assets/Dashboard.png';
 
 const HeroSection = () => {
     return (
-        <div className="w-[1440px] h-[972px] absolute top-[100px] bg-secondary-700 border-b">
+        <section className="relative w-[1440px] h-[972px] bg-secondary-700 border-b">
             <div className="w-[1200px] h-[852.857177734375px] absolute top-[604px] left-[120px]">
                 <img src={Dashboard} alt="" />
             </div>
@@ -22,7 +22,7 @@ const HeroSection = () => {
             <div className="flex w-[748px] h-[216px] justify-center text-center absolute text-primary-0 top-[120px] left-[346px] gap-6 font-bold text-[72px] leading-[150%] tracking-[-0.03em]">
                 All your business expenses in one place.                               
             </div>
-        </div>
+        </section>
     );
 };
 

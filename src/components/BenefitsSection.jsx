@@ -1,29 +1,70 @@
 import React from "react";
-import Dashboard from '../assets/Dashboard.png';
+import Invoice from '../assets/Frame 33664.png';
+import PayementHistory from '../assets/Frame 33664 (1).png';
+import CardPayement from '../assets/Frame 33664 (2).png';
 
-const HeroSection = () => {
+const BenefitsSection = () => {
     return (
-        <div className="w-[1440px] h-[972px] absolute top-[100px] bg-secondary-700 border-b">
-            <div className="w-[1200px] h-[852.857177734375px] absolute top-[604px] left-[120px]">
-                <img src={Dashboard} alt="" />
+        <section className="w-[1440px] h-[994px] relative bg-white flex flex-col">
+            <div className="flex w-[1200px] h-[528px] absolute top-[346px] left-[120px] gap-6">
+                <div className="flex flex-col w-[384px] h-[528px] gap-6">
+                    <div className="w-[384px] h-[384px] rounded-[12px] bg-secondary-100">
+                        <img src={Invoice} alt="" />
+                    </div>
+                    <div className="flex flex-col w-[384px] h-[120px] gap-3">
+                        <span className="w-[300px] h-[36px] text-[24px] font-semibold text-secondary-900">
+                            Automatic Invoice Payment
+                        </span>
+                        <p className="flex w-[384px] h-[72px] text-secondary-400">
+                            No need to pay manually, we provide automatic invoice payment service! Set a payment schedule and you're done, it's that easy!
+                        </p>
+                    </div>
+                </div>
+
+                <div className="flex flex-col w-[384px] h-[528px] gap-6">
+                    <div className="w-[384px] h-[384px] rounded-[12px] bg-secondary-100">
+                        <img src={PayementHistory} alt="" />
+                    </div>
+                    <div className="flex flex-col w-[384px] h-[120px] gap-3">
+                        <span className="w-[300px] h-[36px] text-[24px] font-semibold text-secondary-900">
+                            Clear payment history
+                        </span>
+                        <p className="flex w-[384px] h-[72px] text-secondary-400">
+                            No need to pay manually, we provide automatic invoice payment service! Set a payment schedule and you're done, it's that easy!
+                        </p>
+                    </div>
+                </div>
+
+                <div className="flex flex-col w-[384px] h-[528px] gap-6">
+                    <div className="w-[384px] h-[384px] rounded-[12px] bg-secondary-100">
+                        <img src={CardPayement} alt="" />
+                    </div>
+                    <div className="flex flex-col w-[384px] h-[120px] gap-3">
+                        <span className="w-[300px] h-[36px] text-[24px] font-semibold text-secondary-900">
+                            Automatic Invoice Payment
+                        </span>
+                        <p className="flex w-[384px] h-[72px] text-secondary-400">
+                            No need to pay manually, we provide automatic invoice payment service! Set a payment schedule and you're done, it's that easy!
+                        </p>
+                    </div>
+                </div>
             </div>
-            <div className="flex w-[352px] h-[52px] absolute text-primary-0 top-[472px] left-[544px] gap-6">
-                <button className="w-[187px] h-[52px] bg-primary-500 border-none rounded-[30px]">
-                    Get a Free Demo
-                </button> 
-                <button className="w-[141px] h-[52px] bg-secondary-500 border-none rounded-[30px]">
-                    See Pricing
-                </button>                                    
+
+            <div className="flex absolute w-[904px] h-[162px] top-[120px] left-[120px] gap-[163px]">
+                <div className="flex flex-col w-[245px] h-[162px] gap-3">
+                    <span className="w-[183px] h-[30px] text-primary-500 font-semibold text-[20px]">
+                        WHY USE SPEND.IN
+                    </span>
+                    <span className="w-[245px] text-secondary-900 font-bold text-[40px] tracking-[-0.03em]">
+                        Easy, Simple, Affordable
+                    </span>
+                </div>
+                <p className="pt-[57px] pb-[15px] text-[20px] text-secondary-400">
+                    Our platform helps your business in managing expenses. These are some of the reasons why you should use our platform in managing business finances.
+                </p>
             </div>
-            <div className="flex w-[621px] h-[72px] justify-center text-center absolute text-secondary-300 top-[360px] left-[410px] gap-6">
-                <p>Your one-stop finance empower platform. <br></br> Manage all your business expenses with our supafast app. 
-                </p>                                   
-            </div>
-            <div className="flex w-[748px] h-[216px] justify-center text-center absolute text-primary-0 top-[120px] left-[346px] gap-6 font-bold text-[72px] leading-[150%] tracking-[-0.03em]">
-                All your business expenses in one place.                               
-            </div>
-        </div>
+        </section>
     );
 };
 
-export default HeroSection;
+export default BenefitsSection;
