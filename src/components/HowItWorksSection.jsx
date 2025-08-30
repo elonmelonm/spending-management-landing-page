@@ -6,13 +6,13 @@ import Content from '../assets/Content.png';
 
 const HowItWorksSection = () => {
     return (
-        <section className="w-[1440px] h-[890px] relative bg-secondary-700 flex flex-col">
-            <div className="flex flex-col w-[712px] h-[186px] absolute items-center justify-center top-[120px] left-[364px] gap-6">
-                <div className="w-[452px] h-[102px] flex flex-col items-center justify-center  gap-3">
-                    <span className="w-[183px] h-[30px] text-primary-500 font-semibold text-[20px]">
+        <section className="w-full h-[890px] items-center py-[120px] relative bg-secondary-700 flex flex-col">
+            <div className="flex flex-col w-[712px] h-[186px] items-center mb-9 justify-center gap-6">
+                <div className="w-[550px] h-[102px] flex flex-col items-center justify-center  gap-3">
+                    <span className="w-full h-[30px] text-center text-primary-500 font-semibold text-[20px]">
                         HOW IT WORKS
                     </span>
-                    <span className="w-[468px] h-[60px] text-primary-0 font-bold text-[40px] tracking-[-0.03em]">
+                    <span className="w-full h-[60px] text-primary-0 font-bold text-[40px] tracking-[-0.03em]">
                         Few Easy Steps and Done
                     </span>
                 </div>
@@ -21,16 +21,16 @@ const HowItWorksSection = () => {
                 </div>
             </div>
 
-            <div className="flex flex-row w-[944px] h-[309px] absolute top-[345px] left-[235px]">
-                <div className="flex w-[225px] h-[309px] gap-8">
+            <div className="flex flex-row justify-between w-[944px] h-[309px] mb-16">
+                <div className="flex relative w-[225px] h-[309px] gap-8">
                     <span className="absolute top-0 left-0 z-10">
                         <svg width="62" height="62" viewBox="0 0 62 62" fill="none" xmlns="http://www.w3.org/2000/svg">
                             <circle cx="31" cy="31" r="28" fill="#7C5CFC" stroke="#0D121F" stroke-width="6"/>
                             <path d="M30.5248 41H33.3328V23.12H27.0928V25.52H30.5248V41Z" fill="white"/>
                         </svg>
                     </span>
-                    <div className="flex flex-col w-[200px] h-[284px] rounded-[16px] gap-6">
-                        <span className="absolute top-[25px] left-[25px]">
+                    <div className="flex flex-col mt-[25px] ml-[25px] w-[200px] h-[284px] rounded-[16px] gap-6">
+                        <span className="">
                             <svg width="200" height="200" viewBox="0 0 200 200" fill="none" xmlns="http://www.w3.org/2000/svg">
                                 <rect width="200" height="200" rx="16" fill="#F3F5F7"/>
                                 <path d="M32 44C32 37.3726 37.3726 32 44 32H200V200H32V44Z" fill="white"/>
@@ -51,21 +51,21 @@ const HowItWorksSection = () => {
                                 <circle cx="158.5" cy="159.5" r="2.5" fill="#1A202C"/>
                             </svg>
                         </span>
-                        <span className="absolute top-[249px] left-[40px] text-center text-[20px] w-[171px] h-[60px] text-primary-0">
+                        <span className="text-center text-[20px] w-full h-[60px] text-primary-0">
                             Register your  Spend.In account.
                         </span>
                     </div>
                 </div>
 
-                <div className="flex w-[225px] h-[309px] absolute top-0 left-[373px] gap-8">
+                <div className="flex relative w-[225px] h-[309px] gap-8">
                     <span className="absolute top-0 left-0 z-10">
                         <svg width="62" height="62" viewBox="0 0 62 62" fill="none" xmlns="http://www.w3.org/2000/svg">
                             <circle cx="31" cy="31" r="28" fill="#7C5CFC" stroke="#0D121F" stroke-width="6"/>
                             <path d="M25.5281 41H37.4081V38.6H29.2721L33.5921 33.992C34.7761 32.712 35.6481 31.616 36.2081 30.704C36.7841 29.776 37.0721 28.824 37.0721 27.848C37.0721 26.856 36.8321 25.984 36.3521 25.232C35.8881 24.48 35.2321 23.896 34.3841 23.48C33.5361 23.048 32.5441 22.832 31.4081 22.832C30.4321 22.832 29.5281 23.024 28.6961 23.408C27.8641 23.792 27.1601 24.336 26.5841 25.04C26.0081 25.728 25.6161 26.544 25.4081 27.488L27.9041 28.208C28.1441 27.28 28.5761 26.576 29.2001 26.096C29.8241 25.6 30.5681 25.352 31.4321 25.352C32.2801 25.352 32.9601 25.592 33.4721 26.072C34.0001 26.552 34.2641 27.216 34.2641 28.064C34.2641 28.592 34.1441 29.096 33.9041 29.576C33.6641 30.056 33.2641 30.616 32.7041 31.256C32.1441 31.88 31.3841 32.704 30.4241 33.728L25.5281 38.96V41Z" fill="white"/>
                         </svg>
                     </span>
-                    <div className="flex flex-col w-[200px] h-[284px] rounded-[16px] gap-6">
-                        <span className="absolute top-[25px] left-[25px]">
+                    <div className="flex flex-col mt-[25px] ml-[25px] w-[200px] h-[284px] rounded-[16px] gap-6">
+                        <span className="">
                             <svg width="200" height="200" viewBox="0 0 200 200" fill="none" xmlns="http://www.w3.org/2000/svg">
                                 <rect width="200" height="200" rx="16" fill="#F3F5F7"/>
                                 <path d="M32 44C32 37.3726 37.3726 32 44 32H156C162.627 32 168 37.3726 168 44V200H32V44Z" fill="white"/>
@@ -84,13 +84,13 @@ const HowItWorksSection = () => {
                             </svg>
 
                         </span>
-                        <span className="absolute top-[249px] left-[40px] text-center text-[20px] w-[180px] h-[60px] text-primary-0">
+                        <span className="text-center text-[20px] w-full h-[60px] text-primary-0">
                             Fill in the list of your business expenses.
                         </span>
                     </div>
                 </div>
 
-                <div className="flex w-[225px] h-[309px] absolute top-0 right-0 gap-8">
+                <div className="flex relative w-[225px] h-[309px] gap-8">
                     <span className="absolute top-0 left-0 z-10">
                         <svg width="62" height="62" viewBox="0 0 62 62" fill="none" xmlns="http://www.w3.org/2000/svg">
                             <circle cx="31" cy="31" r="28" fill="#7C5CFC" stroke="#0D121F" stroke-width="6"/>
@@ -98,8 +98,8 @@ const HowItWorksSection = () => {
                         </svg>
 
                     </span>
-                    <div className="flex flex-col w-[200px] h-[284px] rounded-[16px] gap-6">
-                        <span className="absolute top-[25px] left-[25px]">
+                    <div className="flex flex-col mt-[25px] ml-[25px] w-[200px] h-[284px] rounded-[16px] gap-6">
+                        <span className="">
                             <svg width="200" height="200" viewBox="0 0 200 200" fill="none" xmlns="http://www.w3.org/2000/svg">
                                 <rect width="200" height="200" rx="16" fill="#F3F5F7"/>
                                 <path d="M32 44C32 37.3726 37.3726 32 44 32H200V200H32V44Z" fill="white"/>
@@ -113,13 +113,13 @@ const HowItWorksSection = () => {
                                 <rect x="100" y="161" width="100" height="5" rx="2.5" fill="#C3D4E9"/>
                             </svg>
                         </span>
-                        <span className="absolute top-[249px] left-[40px] text-center text-[20px] w-[175px] h-[60px] text-primary-0">
+                        <span className="text-center text-[20px] w-[175px] h-[60px] text-primary-0">
                             Done, let’s continue the work.
                         </span>
                     </div>
                 </div>
             </div>
-            <div className="flex flex-row w-[344px] h-[52px]  absolute top-[718px] left-[548px] gap-4">
+            <div className="flex flex-row w-[344px] h-[52px] gap-4">
                 <button className="w-[187px] h-[52px] text-primary-0 bg-primary-500 border-none rounded-[30px]">
                     Get a Free Demo
                 </button> 
