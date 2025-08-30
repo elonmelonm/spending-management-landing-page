@@ -3,24 +3,27 @@ import Dashboard from '../assets/Dashboard.png';
 
 const HeroSection = () => {
     return (
-        <section className="relative w-[1440px] h-[972px] bg-secondary-700 border-b">
-            <div className="w-[1200px] h-[852.857177734375px] absolute top-[604px] left-[120px]">
-                <img src={Dashboard} alt="" />
+        <section className="relative flex flex-col items-center w-full h-[972px] px-[120px] pb-0 pt-[120px] bg-secondary-700 border-b">
+            
+            <div className="flex flex-col w-full gap-6 justify-center items-center">
+                <div className="flex h-[216px] text-center text-primary-0 font-bold text-[72px] leading-[150%] tracking-[-0.03em]">
+                    All your business <br /> expenses in one place.                               
+                </div>
+                <div className="flex w-full h-[72px] justify-center text-[24px] text-center text-secondary-300 gap-6">
+                    <p>Your one-stop finance empower platform. <br></br> Manage all your business expenses with our supafast app. 
+                    </p>                                   
+                </div>
             </div>
-            <div className="flex w-[352px] h-[52px] absolute text-primary-0 top-[472px] left-[544px] gap-6">
+            <div className="flex w-[352px] h-[52px] mt-10 text-primary-0 gap-6">
                 <button className="w-[187px] h-[52px] bg-primary-500 border-none rounded-[30px]">
                     Get a Free Demo
                 </button> 
                 <button className="w-[141px] h-[52px] bg-secondary-500 border-none rounded-[30px]">
                     See Pricing
                 </button>                                    
-            </div>
-            <div className="flex w-[621px] h-[72px] justify-center text-center absolute text-secondary-300 top-[360px] left-[410px] gap-6">
-                <p>Your one-stop finance empower platform. <br></br> Manage all your business expenses with our supafast app. 
-                </p>                                   
-            </div>
-            <div className="flex w-[748px] h-[216px] justify-center text-center absolute text-primary-0 top-[120px] left-[346px] gap-6 font-bold text-[72px] leading-[150%] tracking-[-0.03em]">
-                All your business expenses in one place.                               
+            </div>            
+            <div className="mt-[80px] justify-end items-end w-[1200px] h-[852">
+                <img src={Dashboard} alt="" />
             </div>
         </section>
     );
