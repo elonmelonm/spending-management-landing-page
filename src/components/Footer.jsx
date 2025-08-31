@@ -64,7 +64,7 @@ const Footer = () => {
                 </div>
 
                 {/* Footer Links */}
-                <div className="md:col-span-6 border-t border-gray-700 pt-6 flex flex-col md:flex-row justify-between items-center font-semibold text-[18px] text-secondary-500 gap-4">
+                <div className="md:col-span-6 border-t border-primary-200 pt-6 flex flex-col md:flex-row justify-between items-center font-semibold text-[18px] text-secondary-500 gap-4">
                     <div className="flex gap-8">
                         <a href="#">Privacy Policy</a>
                         <span>|</span>
