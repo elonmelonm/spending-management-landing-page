@@ -1,11 +1,3 @@
-import React from "react";
-import Invoice from '../assets/Frame 33664.png';
-import PayementHistory from '../assets/Frame 33664 (1).png';
-import CardPayement from '../assets/Frame 33664 (2).png';
-import Image1 from '../assets/Frame 33700.png';
-import Image2 from '../assets/Frame 33700 (1).png';
-import Image3 from '../assets/Frame 33700 (2).png';
-
 const PricingSection = () => {
     return (
         <section className="w-full h-[1249px] items-center p-[120px] relative bg-white flex flex-col">

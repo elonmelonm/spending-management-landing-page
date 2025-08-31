@@ -1,9 +1,12 @@
-import React from "react";
 import Logo from '../assets/Logo with Company Name.png';
+import Elipse9 from '../assets/Ellipse 9.png';
+import Elipse13 from '../assets/Ellipse 13.png';
 
 const Header = () => {
     return (
-        <div className="relative w-full h-[100px] items-center px-[120px] bg-secondary-700 border-b">
+        <div className="relative w-full h-[100px] items-center px-[120px] bg-secondary-700 border-b border-[#FFFFFF29]">
+            <img className="absolute top-0 left-0 z-10" src={Elipse9} alt="" />
+            <img className="absolute top-0 right-0 z-10" src={Elipse13} alt="" />
             <div className="flex h-full justify-between items-center">
                 <div className="flex items-center gap-2">
                     <img src={Logo} alt="" />

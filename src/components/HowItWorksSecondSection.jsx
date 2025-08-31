@@ -1,9 +1,12 @@
-import React from "react";
 import Content from '../assets/Content (1).png';
+import Elipse9 from '../assets/Ellipse 9.png';
+import Elipse10 from '../assets/Ellipse 10.png';
 
 const HowItWorksSecondSection = () => {
     return (
         <section className="w-full h-[776px] items-center py-[120px] pl-[120px] pr-[104px] relative bg-secondary-700 flex flex-col">
+            <img className="absolute top-0 left-0" src={Elipse9} alt="" />
+            <img className="absolute bottom-0 right-0" src={Elipse10} alt="" />
             <div className="flex flex-row gap-[102px] ">
                 <div className="w-[588px] h-[536px] rounded-[12px]">
                     <img src={Content} alt="" />
@@ -60,7 +63,7 @@ const HowItWorksSecondSection = () => {
                         </div>
                     </div>
                 </div>
-            </div> 
+            </div>
         </section>
     );
 };

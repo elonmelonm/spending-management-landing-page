@@ -1,7 +1,5 @@
-import React from "react";
-import Invoice from '../assets/Frame 33664.png';
-import PayementHistory from '../assets/Frame 33664 (1).png';
-import CardPayement from '../assets/Frame 33664 (2).png';
+import Elipse9 from '../assets/Ellipse 9.png';
+import Elipse10 from '../assets/Ellipse 10.png';
 import Image1 from '../assets/Frame 33700.png';
 import Image2 from '../assets/Frame 33700 (1).png';
 import Image3 from '../assets/Frame 33700 (2).png';
@@ -9,6 +7,8 @@ import Image3 from '../assets/Frame 33700 (2).png';
 const TestimonialsSection = () => {
     return (
         <section className="w-full h-[967px] p-[120px] items-center relative bg-secondary-700 flex flex-col gap-16">
+            <img className="absolute top-0 left-0" src={Elipse9} alt="" />
+            <img className="absolute bottom-0 right-0" src={Elipse10} alt="" />
             <div className="flex flex-col w-[568px] h-[186px] items-center justify-center gap-6">
                 <div className="w-[459px] h-[186px] flex flex-col items-center justify-center  gap-3">
                     <span className="w-full h-[30px] text-center text-primary-500 font-semibold text-[20px]">

@@ -1,4 +1,3 @@
-import React from "react";
 import Success from '../assets/Success Stories.png';
 
 const SuccessStorieSection = () => {

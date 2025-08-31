@@ -15,7 +15,7 @@ function App() {
 
   return (
     <>
-      <div className='flex flex-col'>
+      <div className='relative flex flex-col overflow-visible'>
         <Header />
         <HeroSection />
         <BenefitsSection />

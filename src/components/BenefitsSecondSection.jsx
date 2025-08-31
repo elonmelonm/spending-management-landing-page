@@ -1,7 +1,3 @@
-import React from "react";
-import Invoice from '../assets/Frame 33664.png';
-import PayementHistory from '../assets/Frame 33664 (1).png';
-import CardPayement from '../assets/Frame 33664 (2).png';
 import Content from '../assets/Content.png';
 
 const BenefitsSecondSection = () => {

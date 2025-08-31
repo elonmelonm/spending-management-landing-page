@@ -1,4 +1,3 @@
-import React from "react";
 import Success from '../assets/Content (2).png';
 
 const CallToActionSection = () => {
