@@ -4,28 +4,28 @@ import CardPayement from '../assets/Frame 33664 (2).png';
 
 const BenefitsSection = () => {
     return (
-        <section className="w-full h-[994px] p-[120px] items-center relative bg-white flex flex-col">
+        <section className="w-full h-[1679px] md:h-[994px] px-7 py-8 md:p-[120px] items-center relative bg-white flex flex-col">
             <div className="flex flex-col gap-16">
-                <div className="flex flex-row w-[904px] h-[162px] items-center justify-between">
-                    <div className="flex flex-col min-w-[245px] h-[162px] gap-3">
-                        <span className="min-w-[183px] h-[30px] text-primary-500 font-semibold text-[20px]">
+                <div className="flex flex-col md:flex-row h-[93px] md:w-[904px] md:h-[162px] md:items-center justify-between">
+                    <div className="flex flex-col w-[147px] md:min-w-[245px] h-[162px] gap-3">
+                        <span className="w-[110px] h-[15px] md:min-w-[183px] md:h-[30px] text-primary-500 font-semibold text-[12px] md:text-[20px]">
                             WHY USE SPEND.IN
                         </span>
                         <span className="w-[285px] h-[120px] text-secondary-900 font-bold text-[40px] tracking-[-0.03em]">
                             Easy, Simple, Affordable
                         </span>
                     </div>
-                    <p className="w-[496px] h-[90px] text-[20px] text-secondary-400">
+                    <p className="w-[314px] h-[84px] md:w-[496px] md:h-[90px] text-[14px] md:text-[20px] text-secondary-400">
                         Our platform helps your business in managing expenses. These are some of the reasons why you should use our platform in managing business finances.
                     </p>
                 </div>
 
-                <div className="flex w-[1200px] h-[528px] gap-6">
-                    <div className="flex flex-col w-[384px] h-[528px] gap-6">
-                        <div className="w-[384px] h-[384px] rounded-[12px] bg-secondary-100">
+                <div className="flex flex-col md:flex-row w-full md:w-[1200px] h-[528px] gap-6">
+                    <div className="flex flex-col w-[325px] md:w-[384px] h-[442px] md:h-[528px] gap-6">
+                        <div className="md:w-[384px] h-[384px] rounded-[12px] bg-secondary-100">
                             <img src={Invoice} alt="" />
                         </div>
-                        <div className="flex flex-col w-[384px] h-[120px] gap-3">
+                        <div className="flex flex-col md:w-[384px] h-[120px] gap-3">
                             <span className="h-[36px] text-[24px] font-semibold text-secondary-900">
                                 Automatic Invoice Payment
                             </span>
@@ -35,11 +35,11 @@ const BenefitsSection = () => {
                         </div>
                     </div>
 
-                    <div className="flex flex-col w-[384px] h-[528px] gap-6">
-                        <div className="w-[384px] h-[384px] rounded-[12px] bg-secondary-100">
+                    <div className="flex flex-col w-[325px] md:w-[384px] h-[436px] md:h-[528px] gap-6">
+                        <div className="md:w-[384px] h-[384px] rounded-[12px] bg-secondary-100">
                             <img src={PayementHistory} alt="" />
                         </div>
-                        <div className="flex flex-col w-[384px] h-[120px] gap-3">
+                        <div className="flex flex-col md:w-[384px] h-[120px] gap-3">
                             <span className="h-[36px] text-[24px] font-semibold text-secondary-900">
                                 Clear payment history
                             </span>
@@ -49,8 +49,8 @@ const BenefitsSection = () => {
                         </div>
                     </div>
 
-                    <div className="flex flex-col w-[384px] h-[528px] gap-6">
-                        <div className="w-[384px] h-[384px] rounded-[12px] bg-secondary-100">
+                    <div className="flex flex-col w-[325px] md:w-[384px] h-[436px] md:h-[528px] gap-6">
+                        <div className="md:w-[384px] h-[384px] rounded-[12px] bg-secondary-100">
                             <img src={CardPayement} alt="" />
                         </div>
                         <div className="flex flex-col w-[384px] h-[120px] gap-3">

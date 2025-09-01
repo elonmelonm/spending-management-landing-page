@@ -2,24 +2,24 @@ import Content from '../assets/Content.png';
 
 const BenefitsSecondSection = () => {
     return (
-        <section className="w-full h-[903px] p-[120px] relative items-center bg-white flex flex-col">
-            <div className="flex flex-col items-center gap-16">
-                <div className="flex flex-col w-[712px] h-[186px] items-center justify-center gap-6">
-                    <div className="w-[550px] h-[102px] flex flex-col items-center justify-center  gap-3">
-                        <span className="w-full h-[30px] text-center text-primary-500 font-semibold text-[20px]">
+        <section className="w-full h-[903px] px-7 pt-8 md:p-[120px] relative items-center bg-white flex flex-col">
+            <div className="flex flex-col md:items-center gap-16">
+                <div className="flex flex-col w-[314px] md:w-[712px] md:h-[186px] md:items-center md:justify-center gap-6">
+                    <div className="w-[147px] h-[93px] md:w-[550px] md:h-[102px] flex flex-col items-center justify-center  gap-3">
+                        <span className="w-full h-[15px] md:h-[30px] md:text-center text-primary-500 font-semibold text-[12px] md:text-[20px]">
                             WHY USE SPEND.IN
                         </span>
-                        <span className="w-full h-[60px] text-secondary-900 font-bold text-center text-[40px] tracking-[-0.03em]">
+                        <span className="w-full h-[72px] md:h-[60px] text-secondary-900 font-bold md:text-center text-[24px] md:text-[40px] tracking-[-0.03em]">
                             Easy, Simple, Affordable
                         </span>
                     </div>
-                    <div className="w-[712px] h-[60px] text-secondary-400 text-center">
+                    <div className="w-[314px] h-[84px] md:w-[712px] md:h-[60px] text-secondary-400 text-center">
                         Our platform helps your business in managing expenses. These are some of the reasons why you should use our platform in managing business finances.
                     </div>
                 </div>
-                <div className="flex flex-row items-center gap-[95px]">
-                    <div className="flex flex-col w-[497px] h-[376px] justify-center gap-11">
-                        <div className="flex w-[497px] h-[96px] gap-8">
+                <div className="flex flex-col md:flex-row items-center gap-[95px]">
+                    <div className="flex flex-col w-[319px] h-[285px] md:w-[497px] md:h-[376px] justify-center gap-11">
+                        <div className="flex md:w-[497px] h-[90px] md:h-[96px] gap-3 md:gap-8">
                             <span>
                                 <svg width="50" height="50" viewBox="0 0 50 50" fill="none" xmlns="http://www.w3.org/2000/svg">
                                     <rect width="50" height="50" rx="12" fill="#7C5CFC" />
@@ -29,16 +29,16 @@ const BenefitsSecondSection = () => {
                                     <path d="M32.48 25.95H33.5C34.05 25.95 34.5 25.5 34.5 24.95V24.51C34.5 22.44 32.81 20.75 30.74 20.75H19.26C18.41 20.75 17.63 21.03 17 21.51C16.09 22.19 15.5 23.28 15.5 24.51V26.29C15.5 26.67 15.9 26.91 16.26 26.79C16.82 26.6 17.41 26.5 18 26.5C21.03 26.5 23.5 28.97 23.5 32C23.5 32.72 23.31 33.51 23.01 34.21C22.85 34.57 23.1 35 23.49 35H30.74C32.81 35 34.5 33.31 34.5 31.24V31.05C34.5 30.5 34.05 30.05 33.5 30.05H32.63C31.67 30.05 30.75 29.46 30.5 28.53C30.3 27.77 30.54 27.03 31.04 26.55C31.41 26.17 31.92 25.95 32.48 25.95ZM27 25.75H22C21.59 25.75 21.25 25.41 21.25 25C21.25 24.59 21.59 24.25 22 24.25H27C27.41 24.25 27.75 24.59 27.75 25C27.75 25.41 27.41 25.75 27 25.75Z" fill="white" />
                                 </svg>
                             </span>
-                            <div className="flex flex-col w-[415px] h-[96px] gap-3">
-                                <span className="w-full h-[36px] text-secondary-900 text-[24px] font-semibold">
+                            <div className="flex flex-col w-[275px] md:w-[415px] h-[96px] gap-3">
+                                <span className="w-full h-6 md:h-[36px] text-secondary-900 text-4 md:text-[24px] font-semibold">
                                     Automatic Invoice Payment
                                 </span>
-                                <span className="w-[415px] h-[48px] text-secondary-400 text-[16px]">
+                                <span className="md:w-[415px] h-[54px] md:h-[48px] text-secondary-400 text-[16px]">
                                     Automatic payments help you to arrange payments on a certain date without doing it manually again.
                                 </span>
                             </div>
                         </div>
-                        <div className="flex w-[497px] h-[96px] gap-8">
+                        <div className="flex md:w-[497px] h-[72px] md:h-[96px] gap-3 md:gap-8">
                             <span>
                                 <svg width="50" height="50" viewBox="0 0 50 50" fill="none" xmlns="http://www.w3.org/2000/svg">
                                     <rect width="50" height="50" rx="12" fill="#7C5CFC" />
@@ -46,16 +46,16 @@ const BenefitsSecondSection = () => {
                                 </svg>
 
                             </span>
-                            <div className="flex flex-col w-[415px] h-[96px] gap-3">
-                                <span className="w-full h-[36px] text-secondary-900 text-[24px] font-semibold">
+                            <div className="flex flex-col w-[275px] md:w-[415px] h-[96px] gap-3">
+                                <span className="w-full h-6 md:h-[36px] text-secondary-900 text-4 md:text-[24px] font-semibold">
                                     Clear payment history
                                 </span>
-                                <span className="w-[415px] h-[48px] text-secondary-400 text-[16px]">
+                                <span className="md:w-[415px] h-9 md:h-[48px] text-secondary-400 text-[16px]">
                                     Clear payment history helps you to track your business expenses on specific dates.
                                 </span>
                             </div>
                         </div>
-                        <div className="flex w-[497px] h-[96px] gap-8">
+                        <div className="flex md:w-[497px] h-[90px] md:h-[96px] gap-3 md:gap-8">
                             <span>
                                 <svg width="50" height="50" viewBox="0 0 50 50" fill="none" xmlns="http://www.w3.org/2000/svg">
                                     <rect width="50" height="50" rx="12" fill="#7C5CFC" />
@@ -65,17 +65,17 @@ const BenefitsSecondSection = () => {
                                 </svg>
 
                             </span>
-                            <div className="flex flex-col w-[415px] h-[96px] gap-3">
-                                <span className="w-full h-[36px] text-secondary-900 text-[24px] font-semibold">
+                            <div className="flex flex-col  w-[275px] md:w-[415px] h-[96px] gap-3">
+                                <span className="w-full h-6 md:h-[36px] text-secondary-900 text-4 md:text-[24px] font-semibold">
                                     Use of multi-card payments
                                 </span>
-                                <span className="w-[415px] h-[48px] text-secondary-400 text-[16px]">
+                                <span className="md:w-[415px] h-[54px] md:h-[48px] text-secondary-400 text-[16px]">
                                     Have more than one debit or credit card? Don't worry, we support payments using more than one card.
                                 </span>
                             </div>
                         </div>
                     </div>
-                    <div className="w-[608px] h-[413px] rounded-[12px]">
+                    <div className="w-[319px] md:w-[608px] h-[413px] rounded-[12px]">
                         <img src={Content} alt="" />
                     </div>
                 </div>

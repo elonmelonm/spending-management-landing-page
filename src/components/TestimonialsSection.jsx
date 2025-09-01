@@ -6,94 +6,92 @@ import Image3 from '../assets/Frame 33700 (2).png';
 
 const TestimonialsSection = () => {
     return (
-        <section className="w-full h-[967px] p-[120px] items-center relative bg-secondary-700 flex flex-col gap-16">
-            <img className="absolute top-0 left-0" src={Elipse9} alt="" />
-            <img className="absolute bottom-0 right-0" src={Elipse10} alt="" />
-            <div className="flex flex-col w-[568px] h-[186px] items-center justify-center gap-6">
-                <div className="w-[459px] h-[186px] flex flex-col items-center justify-center  gap-3">
-                    <span className="w-full h-[30px] text-center text-primary-500 font-semibold text-[20px]">
+        <section className="w-full min-h-[500px] md:h-[967px] px-4 md:px-[120px] py-12 md:py-[120px] items-center relative bg-secondary-700 flex flex-col gap-8 md:gap-16 overflow-hidden">
+            <img className="absolute top-0 left-0 md:block hidden" src={Elipse9} alt="" />
+            <img className="absolute bottom-0 right-0 md:block hidden" src={Elipse10} alt="" />
+            <div className="flex flex-col w-full md:w-[568px] md:h-[186px] items-center justify-center gap-4 md:gap-6 mx-auto">
+                <div className="w-full md:w-[459px] md:h-[186px] flex flex-col items-center justify-center gap-2 md:gap-3 mx-auto">
+                    <span className="w-full h-[30px] text-center text-primary-500 font-semibold text-[18px] md:text-[20px]">
                         WHAT THEY SAY
                     </span>
-                    <span className="w-full h-[60px] text-center text-primary-0 font-bold text-[40px] tracking-[-0.03em]">
+                    <span className="w-full h-[60px] text-center text-primary-0 font-bold text-[28px] md:text-[40px] tracking-[-0.03em]">
                         Our User Kind Words
                     </span>
                 </div>
-                <div className="w-[568px] h-[60px] text-secondary-400 text-center">
-                    Here are some testimonials from our user after using Spend.In to manage their business  expenses.
+                <div className="w-full md:w-[568px] md:h-[60px] text-secondary-400 text-center text-sm md:text-base">
+                    Here are some testimonials from our user after using Spend.In to manage their business expenses.
                 </div>
             </div>
-            <div className="flex flex-row w-[1200px] h-[363px] gap-6">
-                <div className="flex flex-col w-[384px] p-8 h-[363px] rounded-[12px] bg-secondary-500 gap-8">
-                    <span className="w-[320px] h-[27px] text-[18px] font-semibold text-primary-0 pb-4 ">
+            <div className="flex flex-col md:flex-row w-full md:w-[1200px] md:h-[363px] gap-4 md:gap-6 items-center justify-center mx-auto">
+                <div className="flex flex-col w-full md:w-[384px] p-4 md:p-8 h-[220px] md:h-[363px] rounded-[12px] bg-secondary-500 gap-4 md:gap-8">
+                    <span className="w-full md:w-[320px] h-[27px] text-[16px] md:text-[18px] font-semibold text-primary-0 pb-2 md:pb-4 ">
                         It’s just incredible!
                     </span>
-                    <span className="w-[320px] h-[120px] text-[16px] font-medium text-primary-0 pb-[34px] ">
+                    <span className="w-full md:w-[320px] h-[120px] text-[14px] md:text-[16px] font-medium text-primary-0 pb-4 md:pb-[34px] ">
                         It’s just 1 month since I’m using Spend.In to manage my business expenses, but the result is very satisfying! My business finance now more neat than before, thanks to Spend.In!
                     </span>
-                    <div class="w-[320px] h-0 left-8 top-[229px] opacity-20 border-t border-[#90A3BF]"></div>
-                    <div className="flex gap-6 items-center">
+                    <div className="w-full h-0 opacity-20 border-t border-[#90A3BF]"></div>
+                    <div className="flex gap-4 md:gap-6 items-center">
                         <span>
-                            <img src={Image1} alt="" />
+                            <img src={Image1} alt="" className="w-10 h-10 md:w-auto md:h-auto" />
                         </span>
-                        <div className="flex flex-col w-[190px] h-[48px] text-[16px] text-primary-0 pb-[34px] ">
-                            <span className="w-[122px] h-[27px] text-[16px] font-bold text-primary-0 ">
+                        <div className="flex flex-col w-full md:w-[190px] h-[48px] text-[14px] md:text-[16px] text-primary-0 pb-2 md:pb-[34px] ">
+                            <span className="w-full md:w-[122px] h-[27px] text-[14px] md:text-[16px] font-bold text-primary-0 ">
                                 Jimmy Bartney
                             </span>
-                            <span className="w-[190px] h-[21px] text-[14px] text-secondary-200 ">
+                            <span className="w-full md:w-[190px] h-[21px] text-[12px] md:text-[14px] text-secondary-200 ">
                                 Product Manager at Picko Lab
                             </span>
                         </div>
                     </div>
                 </div>
-                <div className="flex flex-col w-[384px] p-8 h-[363px] rounded-[12px] bg-secondary-500 gap-8">
-                    <span className="w-[320px] h-[27px] text-[18px] font-semibold text-primary-0 pb-4 ">
+                <div className="flex flex-col w-full md:w-[384px] p-4 md:p-8 h-[220px] md:h-[363px] rounded-[12px] bg-secondary-500 gap-4 md:gap-8">
+                    <span className="w-full md:w-[320px] h-[27px] text-[16px] md:text-[18px] font-semibold text-primary-0 pb-2 md:pb-4 ">
                         Satisfied User Here!
                     </span>
-                    <span className="w-[320px] h-[120px] text-[16px] font-medium text-primary-0 pb-[34px] ">
+                    <span className="w-full md:w-[320px] h-[120px] text-[14px] md:text-[16px] font-medium text-primary-0 pb-4 md:pb-[34px] ">
                         Never thought that with Spend.In managing my business expenses is so easy! Been using this platform for 3 months and still counting!
                     </span>
-                    <div class=" w-[320px] h-0 left-8 top-[229px] opacity-20 border-t border-[#90A3BF]"></div>
-                    <div className="flex gap-6 items-center">
+                    <div className="w-full h-0 opacity-20 border-t border-[#90A3BF]"></div>
+                    <div className="flex gap-4 md:gap-6 items-center">
                         <span>
-                            <img src={Image2} alt="" />
+                            <img src={Image2} alt="" className="w-10 h-10 md:w-auto md:h-auto" />
                         </span>
-                        <div className="flex flex-col w-[190px] h-[48px] text-[16px] text-primary-0 pb-[34px] ">
-                            <span className="w-[155px] h-[27px] text-[16px] font-bold text-primary-0 ">
+                        <div className="flex flex-col w-full md:w-[190px] h-[48px] text-[14px] md:text-[16px] text-primary-0 pb-2 md:pb-[34px] ">
+                            <span className="w-full md:w-[155px] h-[27px] text-[14px] md:text-[16px] font-bold text-primary-0 ">
                                 Natasha Romanoff
                             </span>
-                            <span className="w-[190px] h-[21px] text-[14px] text-secondary-200 ">
+                            <span className="w-full md:w-[190px] h-[21px] text-[12px] md:text-[14px] text-secondary-200 ">
                                 Black Widow
                             </span>
                         </div>
                     </div>
                 </div>
-                <div className="flex flex-col w-[384px] p-8 h-[363px] rounded-[12px] bg-secondary-500 gap-8">
-                    <span className="w-[320px] h-[27px] text-[18px] font-semibold text-primary-0 pb-4 ">
+                <div className="flex flex-col w-full md:w-[384px] p-4 md:p-8 h-[220px] md:h-[363px] rounded-[12px] bg-secondary-500 gap-4 md:gap-8">
+                    <span className="w-full md:w-[320px] h-[27px] text-[16px] md:text-[18px] font-semibold text-primary-0 pb-2 md:pb-4 ">
                         No doubt, Spend.In is the best!
                     </span>
-                    <span className="w-[320px] h-[120px] text-[16px] font-medium text-primary-0 pb-[34px] ">
+                    <span className="w-full md:w-[320px] h-[120px] text-[14px] md:text-[16px] font-medium text-primary-0 pb-4 md:pb-[34px] ">
                         “The best”! That’s what I want to say to this platform, didn’t know that there’s a platform to help you manage your business expenses like this! Very recommended to you who have a big business!
                     </span>
-
-                    <div class=" w-[320px] h-0 left-8 top-[229px] opacity-20 border-t border-[#90A3BF]"></div>
-
-                    <div className="flex gap-6 items-center">
+                    <div className="w-full h-0 opacity-20 border-t border-[#90A3BF]"></div>
+                    <div className="flex gap-4 md:gap-6 items-center">
                         <span>
-                            <img src={Image3} alt="" />
+                            <img src={Image3} alt="" className="w-10 h-10 md:w-auto md:h-auto" />
                         </span>
-                        <div className="flex flex-col w-[190px] h-[48px] text-[16px] text-primary-0 pb-[34px] ">
-                            <span className="w-[122px] h-[27px] text-[16px] font-bold text-primary-0 ">
+                        <div className="flex flex-col w-full md:w-[190px] h-[48px] text-[14px] md:text-[16px] text-primary-0 pb-2 md:pb-[34px] ">
+                            <span className="w-full md:w-[122px] h-[27px] text-[14px] md:text-[16px] font-bold text-primary-0 ">
                                 Jimmy Bartney
                             </span>
-                            <span className="w-[190px] h-[21px] text-[14px] text-secondary-200 ">
+                            <span className="w-full md:w-[190px] h-[21px] text-[12px] md:text-[14px] text-secondary-200 ">
                                 Product Manager at Picko Lab
                             </span>
                         </div>
                     </div>
                 </div>
             </div>
-            <div className="flex flex-row w-[122px] h-[50px] gap-6">
-                <button>
+            <div className="flex flex-row w-full md:w-[122px] h-[50px] gap-4 md:gap-6 items-center justify-center mt-4 md:mt-0">
+                <button className="w-[50px] h-[50px] flex items-center justify-center">
                     <svg width="48" height="50" viewBox="0 0 48 50" fill="none" xmlns="http://www.w3.org/2000/svg">
                         <rect width="48" height="50" rx="24" fill="#1A202C" />
                         <path d="M22.1775 20.4473L17.625 24.9998L22.1775 29.5523" stroke="#C3D4E9" stroke-width="1.5" stroke-miterlimit="10" stroke-linecap="round" stroke-linejoin="round" />
