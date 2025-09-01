@@ -6,13 +6,13 @@ const CallToActionSection = () => {
             <div className="flex flex-col md:flex-row gap-8 md:gap-11 lg:gap-16 xl:gap-20 w-full items-center justify-between">
                 <div className="flex flex-col gap-6 md:gap-8 lg:gap-10 xl:gap-12 w-full md:w-auto">
                     <div className="flex flex-col w-full md:w-[568px] lg:w-[600px] xl:w-[650px] justify-center gap-2 md:gap-3 lg:gap-4 xl:gap-6">
-                        <span className="w-full md:w-[242px] h-[30px] text-primary-500 font-semibold text-[18px] md:text-[20px] xl:text-[22px]">
+                        <span className="w-full md:w-[242px] h-[30px] text-primary-500 font-semibold text-[14px] md:text-[20px] xl:text-[22px]">
                             DOWNLOAD NOW!
                         </span>
-                        <p className="w-full h-[40px] md:h-[120px] lg:h-[140px] xl:h-[162px] text-[24px] md:text-[40px] lg:text-[44px] xl:text-[48px] font-bold text-primary-0 mt-2 md:mt-0">
+                        <p className="w-full h-[40px] md:h-[120px] lg:h-[140px] xl:h-[162px] text-[20px] md:text-[40px] lg:text-[44px] xl:text-[48px] font-bold text-primary-0 mt-2 md:mt-0">
                             Start Track Your Business Expenses Today
                         </p>
-                        <p className="w-full md:w-[568px] lg:w-[600px] xl:w-[650px] text-[16px] md:text-[20px] lg:text-[22px] xl:text-[24px] text-secondary-400 mt-2">
+                        <p className="w-full md:w-[568px] lg:w-[600px] xl:w-[650px] text-[14px] md:text-[20px] lg:text-[22px] xl:text-[24px] text-secondary-400 mt-2">
                             Are you ready to make your business more organized? Download Spend.In now!
                         </p>
                     </div>

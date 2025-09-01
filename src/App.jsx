@@ -15,7 +15,7 @@ function App() {
 
   return (
     <>
-      <div className='relative flex flex-col overflow-visible'>
+      {/* <div className='relative flex flex-col overflow-visible'> */}
         <Header />
         <HeroSection />
         <BenefitsSection />
@@ -28,7 +28,7 @@ function App() {
         <PricingSection />
         <CallToActionSection />
         <Footer />
-      </div>
+      {/* </div> */}
       
     </>
   )

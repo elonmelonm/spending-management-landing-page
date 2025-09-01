@@ -53,7 +53,7 @@ const BenefitsSection = () => {
                         <div className="lg:w-[384px] h-[384px] rounded-[12px] bg-secondary-100">
                             <img src={CardPayement} alt="" />
                         </div>
-                        <div className="flex flex-col w-[384px] h-[120px] gap-3">
+                        <div className="flex flex-col w-full md:w-[384px] h-[120px] gap-3">
                             <span className="h-[36px] text-[24px] font-semibold text-secondary-900">
                                 Use of multi-card payments
                             </span>

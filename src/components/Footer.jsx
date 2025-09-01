@@ -2,7 +2,7 @@ import Logo from "../assets/LogoLight.png";
 
 const Footer = () => {
     return (
-        <footer className="px-4 py-8 md:px-12 md:py-16 lg:px-20 lg:py-20 xl:px-[120px] xl:py-[120px] bg-white">
+        <footer className="w-full px-4 py-8 md:px-12 md:py-16 lg:px-20 lg:py-20 xl:px-[120px] xl:py-[120px] bg-white">
             <div className="w-full lg:w-[900px]  xl:w-[1200px] mx-auto grid grid-cols-1 md:grid-cols-3 lg:grid-cols-5 gap-x-4 md:gap-x-10 lg:gap-x-12 xl:gap-x-16 gap-y-8 md:gap-y-10">
                 {/* Spend.In */}
                 <div className="flex flex-col w-full lg:w-[188px] gap-4 md:gap-8 items-center lg:items-start">
