@@ -4,67 +4,70 @@ import Elipse10 from '../assets/Ellipse 10.png';
 
 const HowItWorksSecondSection = () => {
     return (
-        <section className="w-full h-[830px] md:h-[776px] items-center px-7 py-8 md:py-[120px] md:pl-[120px] md:pr-[104px] relative bg-secondary-700 flex flex-col">
-            <img className="absolute top-0 left-0" src={Elipse9} alt="" />
-            <img className="absolute bottom-0 right-0" src={Elipse10} alt="" />
-            <div className="flex flex-col md:flex-row gap-8 md:gap-[102px] ">
-                <div className="w-[588px] h-[536px] rounded-[12px] hidden md:block">
-                    <img src={Content} alt="" />
+        <section className="w-full flex flex-col items-center relative bg-secondary-700 px-7 py-8 md:px-12 md:py-16 lg:px-20 lg:py-20 xl:px-[120px] xl:py-[120px]">
+            <img className="absolute top-0 left-0 w-[80px] md:w-[120px] lg:w-[160px] xl:w-[200px]" src={Elipse9} alt="" />
+            <img className="absolute bottom-0 right-0 w-[80px] md:w-[120px] lg:w-[160px] xl:w-[200px]" src={Elipse10} alt="" />
+            <div className="flex flex-col md:flex-row gap-8 md:gap-16 lg:gap-[102px] xl:gap-[120px] w-full xl:w-[1200px] mx-auto">
+                {/* Desktop image */}
+                <div className="hidden md:block w-[320px] md:w-[400px] lg:w-[500px] xl:w-[588px] h-[220px] md:h-[350px] lg:h-[450px] xl:h-[536px] rounded-[12px]">
+                    <img src={Content} alt="" className="w-full h-full object-cover rounded-[12px]" />
                 </div>
-                <div className="flex flex-col gap-8">
-                    <div className="flex flex-col md:w-[550px] h-[216px] justify-center gap-6">
-                        <div className="w-[172px] md:w-full h-[93px] md:h-[102px] flex flex-col justify-center  gap-3">
-                            <span className="w[89px] md:w-[183px] h-[15px] md:h-[30px] text-primary-500 font-semibold text-[12px] md:text-[20px]">
+                <div className="flex flex-col gap-8 md:w-[350px] lg:w-[450px] xl:w-[550px]">
+                    <div className="flex flex-col justify-center gap-6">
+                        <div className="flex flex-col w-[172px] md:w-full h-auto gap-3">
+                            <span className="text-primary-500 font-semibold text-[12px] md:text-[16px] lg:text-[18px] xl:text-[20px]">
                                 HOW IT WORKS
                             </span>
-                            <span className="w-full h-[72px] md:h-[60px] text-primary-0 font-bold text-[24px] md:text-[40px] tracking-[-0.03em]">
+                            <span className="text-primary-0 font-bold text-[24px] md:text-[32px] lg:text-[36px] xl:text-[40px] tracking-[-0.03em]">
                                 Few Easy Steps and Done
                             </span>
                         </div>
-                        <div className="w-[314px] h-[63px] md:w-[491px] md:h-[90px] text-secondary-400 text-[14px] md:text-[20px]">
+                        <div className="w-[314px] md:w-[350px] lg:w-[400px] xl:w-[491px] text-secondary-400 text-[14px] md:text-[16px] lg:text-[18px] xl:text-[20px]">
                             In just few easy step, you are all set to manage your business finances. Manage all expenses with Spend.In all in one place.
                         </div>
                     </div>
-                    <div className="flex flex-col w-[319px] h-[211px] md:w-[576px] md:h-[288px] px-2.5 py-[19px] md:p-8 bg-secondary-500 justify-center rounded-[12px] gap-10">
-                        <div className="w-[358px] h-[48px] flex flex-row items-center gap-3 md:gap-4">
-                            <span className='w-8 h-8 md:w-full md:h-full'>
+                    <div className="flex flex-col w-[319px] md:w-[350px] lg:w-[450px] xl:w-[576px] px-2.5 py-5 md:p-8 bg-secondary-500 justify-center rounded-[12px] gap-8 md:gap-10">
+                        <div className="flex flex-row items-center gap-3 md:gap-4">
+                            <span className='w-8 h-8 md:w-12 md:h-12'>
+                                {/* SVG inchangé */}
                                 <svg width="48" height="48" viewBox="0 0 48 48" fill="none" xmlns="http://www.w3.org/2000/svg">
                                     <circle cx="24" cy="24" r="24" fill="#7C5CFC" />
                                     <path d="M23.5247 34.72V19.24H20.0927V16.84H26.3327V34.72H23.5247Z" fill="white" />
                                 </svg>
                             </span>
-                            <p className="w-[249px] md:w-[294px] h-[21px] md:h-[30px] text-primary-0 text-[14px] md:text-[20px]">
+                            <p className="text-primary-0 text-[14px] md:text-[16px] lg:text-[18px] xl:text-[20px]">
                                 Register your Spend.In account.
                             </p>
                         </div>
-                        <div className="md:w-[358px] h-[48px] flex flex-row items-center  gap-3 md:gap-4">
-                            <span className='w-8 h-8 md:w-full md:h-full'>
+                        <div className="flex flex-row items-center gap-3 md:gap-4">
+                            <span className='w-8 h-8 md:w-12 md:h-12'>
+                                {/* SVG inchangé */}
                                 <svg width="48" height="48" viewBox="0 0 48 48" fill="none" xmlns="http://www.w3.org/2000/svg">
                                     <circle cx="24" cy="24" r="24" fill="#7C5CFC" />
                                     <path d="M18.0281 32.72H29.9081V30.32H21.7721L26.0921 25.712C27.2761 24.432 28.1481 23.336 28.7081 22.424C29.2841 21.496 29.5721 20.544 29.5721 19.568C29.5721 18.576 29.3321 17.704 28.8521 16.952C28.3881 16.2 27.7321 15.616 26.8841 15.2C26.0361 14.768 25.0441 14.552 23.9081 14.552C22.9321 14.552 22.0281 14.744 21.1961 15.128C20.3641 15.512 19.6601 16.056 19.0841 16.76C18.5081 17.448 18.1161 18.264 17.9081 19.208L20.4041 19.928C20.6441 19 21.0761 18.296 21.7001 17.816C22.3241 17.32 23.0681 17.072 23.9321 17.072C24.7801 17.072 25.4601 17.312 25.9721 17.792C26.5001 18.272 26.7641 18.936 26.7641 19.784C26.7641 20.312 26.6441 20.816 26.4041 21.296C26.1641 21.776 25.7641 22.336 25.2041 22.976C24.6441 23.6 23.8841 24.424 22.9241 25.448L18.0281 30.68V32.72Z" fill="white" />
                                 </svg>
-
                             </span>
-                            <p className="w-[237px] md:w-[356px] h-[21px] md:h-[30px] text-primary-0 text-[14px] md:text-[20px]">
+                            <p className="text-primary-0 text-[14px] md:text-[16px] lg:text-[18px] xl:text-[20px]">
                                 Fill in the list of your business expenses.
                             </p>
                         </div>
-                        <div className="w-[358px] h-[48px] flex flex-row items-center  gap-3 md:gap-4">
-                            <span className='w-8 h-8 md:w-full md:h-full'>
+                        <div className="flex flex-row items-center gap-3 md:gap-4">
+                            <span className='w-8 h-8 md:w-12 md:h-12'>
+                                {/* SVG inchangé */}
                                 <svg width="48" height="48" viewBox="0 0 48 48" fill="none" xmlns="http://www.w3.org/2000/svg">
                                     <circle cx="24" cy="24" r="24" fill="white" />
                                     <path d="M23.696 34.0082C22.736 34.0082 21.832 33.8322 20.984 33.4802C20.152 33.1282 19.432 32.6322 18.824 31.9922C18.232 31.3522 17.808 30.6002 17.552 29.7362L19.952 28.8242C20.272 29.6722 20.76 30.3282 21.416 30.7922C22.072 31.2562 22.832 31.4882 23.696 31.4882C24.4 31.4882 25.008 31.3522 25.52 31.0802C26.048 30.8082 26.456 30.4242 26.744 29.9282C27.048 29.4322 27.2 28.8322 27.2 28.1282C27.2 27.4402 27.048 26.8482 26.744 26.3522C26.456 25.8562 26.048 25.4802 25.52 25.2242C25.008 24.9682 24.4 24.8402 23.696 24.8402C23.408 24.8402 23.112 24.8642 22.808 24.9122C22.52 24.9602 22.264 25.0242 22.04 25.1042L21.416 23.7842L26.12 18.2402H18.512V15.8402H29.288V18.1202L24.68 23.6402L24.608 22.7282C25.68 22.7442 26.624 22.9842 27.44 23.4482C28.256 23.8962 28.888 24.5202 29.336 25.3202C29.8 26.1042 30.032 27.0162 30.032 28.0562C30.032 29.1762 29.76 30.1922 29.216 31.1042C28.672 32.0002 27.92 32.7122 26.96 33.2402C26.016 33.7522 24.928 34.0082 23.696 34.0082Z" fill="#1A202C" />
                                 </svg>
-
                             </span>
-                            <p className="w-[191px] md:w-[272px] h-[21px] md:h-[30px] text-primary-0 text-[14px] md:text-[20px]">
+                            <p className="text-primary-0 text-[14px] md:text-[16px] lg:text-[18px] xl:text-[20px]">
                                 Done, let’s continue the work.
                             </p>
                         </div>
                     </div>
                 </div>
-                <div className="w-[319px] h-[291px] md:w-[588px] md:h-[536px] rounded-[12px] md:hidden">
-                    <img src={Content} alt="" />
+                {/* Mobile image */}
+                <div className="block md:hidden w-[319px] h-[220px] rounded-[12px]">
+                    <img src={Content} alt="" className="w-full h-full object-cover rounded-[12px]" />
                 </div>
             </div>
         </section>

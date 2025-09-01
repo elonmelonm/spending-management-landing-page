@@ -2,7 +2,7 @@ import Content from '../assets/Content.png';
 
 const BenefitsSecondSection = () => {
     return (
-        <section className="w-full h-[903px] px-7 pt-8 md:p-[120px] relative items-center bg-white flex flex-col">
+        <section className="w-full h-[903px] md:h-[1370px] xl:h-[903px] px-7 pt-8 md:p-[120px] relative items-center bg-white flex flex-col">
             <div className="flex flex-col md:items-center gap-16">
                 <div className="flex flex-col w-[314px] md:w-[712px] md:h-[186px] md:items-center md:justify-center gap-6">
                     <div className="w-[147px] h-[93px] md:w-[550px] md:h-[102px] flex flex-col items-center justify-center  gap-3">
@@ -17,7 +17,7 @@ const BenefitsSecondSection = () => {
                         Our platform helps your business in managing expenses. These are some of the reasons why you should use our platform in managing business finances.
                     </div>
                 </div>
-                <div className="flex flex-col md:flex-row items-center gap-[95px]">
+                <div className="flex flex-col xl:flex-row items-center gap-[95px]">
                     <div className="flex flex-col w-[319px] h-[285px] md:w-[497px] md:h-[376px] justify-center gap-11">
                         <div className="flex md:w-[497px] h-[90px] md:h-[96px] gap-3 md:gap-8">
                             <span>

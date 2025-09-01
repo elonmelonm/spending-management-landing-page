@@ -3,24 +3,25 @@ import Elipse10 from '../assets/Ellipse 10.png';
 
 const HowItWorksSection = () => {
     return (
-        <section className="w-full h-[1397px] md:h-[890px] md:items-center px-7 py-8 md:px-0 md:py-[120px] relative bg-secondary-700 flex flex-col">
-            <img className="absolute top-0 left-0" src={Elipse9} alt="" />
-            <img className="absolute bottom-0 right-0" src={Elipse10} alt="" />
-            <div className="flex flex-col w-[172px] md:w-[712px] h-[186px] md:items-center mb-9 md:justify-center gap-6">
-                <div className="w-[172px] md:w-[550px] h-[93px] md:h-[102px] flex flex-col md:items-center md:justify-center  gap-3">
-                    <span className="w-full h-[15px] md:h-[30px] md:text-center text-primary-500 font-semibold text-[12px] md:text-[20px]">
+        <section className="w-full flex flex-col relative bg-secondary-700 px-7 py-8 md:px-12 md:py-12 lg:px-20 lg:py-16 xl:px-[120px] xl:py-[120px] items-center min-h-[900px]">
+            <img className="absolute top-0 left-0 w-[80px] md:w-[120px] lg:w-[160px] xl:w-[200px]" src={Elipse9} alt="" />
+            <img className="absolute bottom-0 right-0 w-[80px] md:w-[120px] lg:w-[160px] xl:w-[200px]" src={Elipse10} alt="" />
+            <div className="flex flex-col w-[172px] md:w-[500px] lg:w-[650px] xl:w-[712px] h-auto items-center mb-9 justify-center gap-6">
+                <div className="w-[172px] md:w-[400px] lg:w-[500px] xl:w-[550px] h-auto flex flex-col items-center justify-center gap-3">
+                    <span className="w-full h-[15px] md:h-[30px] text-primary-500 font-semibold text-[12px] md:text-[16px] lg:text-[18px] xl:text-[20px] text-center">
                         HOW IT WORKS
                     </span>
-                    <span className="w-full h-[60px] text-primary-0 font-bold text-[24px] md:text-[40px] tracking-[-0.03em]">
+                    <span className="w-full h-[60px] text-primary-0 font-bold text-[24px] md:text-[32px] lg:text-[36px] xl:text-[40px] tracking-[-0.03em] text-center">
                         Few Easy Steps and Done
                     </span>
                 </div>
-                <div className="w-[314px] md:w-[712px] h-[63px] md:h-[60px] text-[14px] text-secondary-400 md:text-center">
+                <div className="w-[314px] md:w-[500px] lg:w-[600px] xl:w-[712px] h-auto text-[14px] md:text-[16px] lg:text-[18px] xl:text-[20px] text-secondary-400 text-center">
                     In just few easy step, you are all set to manage your business finances. Manage all expenses with Spend.In all in one place.
                 </div>
             </div>
 
-            <div className="flex flex-col md:flex-row justify-between items-center md:items-start w-[314px] md:w-[944px] h-[309px] mb-16">
+            <div className="flex flex-col md:flex-row justify-between items-center w-full md:w-[700px] lg:w-[900px] xl:w-[944px] gap-8 mb-16">
+                {/* Step 1 */}
                 <div className="flex relative w-[225px] h-[309px] gap-8">
                     <span className="absolute top-0 left-0 z-10">
                         <svg width="62" height="62" viewBox="0 0 62 62" fill="none" xmlns="http://www.w3.org/2000/svg">
@@ -118,7 +119,7 @@ const HowItWorksSection = () => {
                     </div>
                 </div>
             </div>
-            <div className="absolute bottom-8 flex flex-col md:flex-row w-[319px] h-[128px] md:w-[344px] md:h-[52px] gap-4">
+            <div className="absolute bottom-8 flex flex-col md:flex-row w-[319px] h-[128px] md:w-[344px] md:h-[52px] gap-4 items-center">
                 <button className="w-full md:w-[187px] h-[52px] text-primary-0 bg-primary-500 border-none rounded-[30px]">
                     Get a Free Demo
                 </button>
