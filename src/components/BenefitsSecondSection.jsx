@@ -13,7 +13,7 @@ const BenefitsSecondSection = () => {
                             Easy, Simple, Affordable
                         </span>
                     </div>
-                    <div className="w-[314px] h-[84px] md:w-[712px] md:h-[60px] text-secondary-400 text-center">
+                    <div className="w-[314px] h-[84px] md:w-[712px] md:h-[60px] text-secondary-400 md:text-center">
                         Our platform helps your business in managing expenses. These are some of the reasons why you should use our platform in managing business finances.
                     </div>
                 </div>

@@ -14,11 +14,11 @@ const HeroSection = () => {
             <img className="absolute bottom-0 right-0 block lg:hidden" src={Elipse101} alt="" />
             <img className="absolute bottom-0 left-0 block lg:hidden" src={Elipse121} alt="" />
 
-            <div className="flex flex-col w-[317px] h-[237px] lg:h-full lg:w-full gap-3 lg:gap-6 lg:justify-center lg:items-center">
-                <div className="flex h-[216px] text-primary-0 font-bold text-[36px] lg:text-[72px] leading-[150%] tracking-[-0.03em] lg:text-center">
+            <div className="flex flex-col w-[317px] h-[237px] md:w-[400px] lg:h-full lg:w-full gap-3 lg:gap-6 md:justify-center md:items-center">
+                <div className="flex h-[216px] text-primary-0 font-bold text-[36px] lg:text-[72px] leading-[150%] tracking-[-0.03em] md:text-center">
                     All your business <br /> expenses in one place.
                 </div>
-                <div className="flex w-[314px] h-[63px] lg:w-full lg:h-[72px] justify-center text-[14px] lg:text-[24px] lg:text-center text-secondary-300 gap-6">
+                <div className="flex w-[314px] h-[63px] md:w-full lg:h-[72px] justify-center text-[14px] lg:text-[24px] md:text-center text-secondary-300 gap-6">
                     <p>
                         Your one-stop finance empower platform. <br />
                         Manage all your business expenses with our supafast app.

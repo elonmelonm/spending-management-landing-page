@@ -42,7 +42,7 @@ const Header = () => {
                     </div>
                 </div>
                 {/* Mobile hamburger */}
-                <div className="lg:hidden flex items-center">
+                <div className="lg:hidden flex items-center z-20">
                     <button onClick={() => setMenuOpen(!menuOpen)} className="focus:outline-none">
                         <svg width="32" height="32" viewBox="0 0 32 32" fill="none" xmlns="http://www.w3.org/2000/svg">
                             <rect y="7" width="32" height="3" rx="1.5" fill="white" />

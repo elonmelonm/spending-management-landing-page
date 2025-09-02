@@ -24,7 +24,7 @@ const TestimonialsSection = () => {
             </div>
             <div className="flex flex-col xl:flex-row w-full xl:w-[1200px]  gap-4 md:gap-6 xl:gap-8 items-center justify-center mx-auto">
                 {/* Card 1 */}
-                <div className="flex flex-col w-full md:w-[384px] xl:w-[420px] p-4 md:p-8 xl:p-10 h-[220px] md:h-[363px] xl:h-[400px] rounded-[12px] bg-secondary-500 gap-4 md:gap-8 xl:gap-10">
+                <div className="flex flex-col w-full md:w-[384px] xl:w-[420px] p-4 md:p-8 xl:p-10 h-full md:h-[363px] xl:h-[400px] rounded-[12px] bg-secondary-500 gap-4 md:gap-8 xl:gap-10">
                     <span className="w-full md:w-[320px] xl:w-[350px] h-[27px] text-[16px] md:text-[18px] xl:text-[20px] font-semibold text-primary-0 pb-2 md:pb-4 xl:pb-6">
                         It’s just incredible!
                     </span>
@@ -47,7 +47,7 @@ const TestimonialsSection = () => {
                     </div>
                 </div>
                 {/* Card 2 */}
-                <div className="flex flex-col w-full md:w-[384px] xl:w-[420px] p-4 md:p-8 xl:p-10 h-[220px] md:h-[363px] xl:h-[400px] rounded-[12px] bg-secondary-500 gap-4 md:gap-8 xl:gap-10">
+                <div className="flex flex-col w-full md:w-[384px] xl:w-[420px] p-4 md:p-8 xl:p-10 h-full md:h-[363px] xl:h-[400px] rounded-[12px] bg-secondary-500 gap-4 md:gap-8 xl:gap-10">
                     <span className="w-full md:w-[320px] xl:w-[350px] h-[27px] text-[16px] md:text-[18px] xl:text-[20px] font-semibold text-primary-0 pb-2 md:pb-4 xl:pb-6">
                         Satisfied User Here!
                     </span>
@@ -70,7 +70,7 @@ const TestimonialsSection = () => {
                     </div>
                 </div>
                 {/* Card 3 */}
-                <div className="flex flex-col w-full md:w-[384px] xl:w-[420px] p-4 md:p-8 xl:p-10 h-[220px] md:h-[363px] xl:h-[400px] rounded-[12px] bg-secondary-500 gap-4 md:gap-8 xl:gap-10">
+                <div className="flex flex-col w-full md:w-[384px] xl:w-[420px] p-4 md:p-8 xl:p-10 h-full md:h-[363px] xl:h-[400px] rounded-[12px] bg-secondary-500 gap-4 md:gap-8 xl:gap-10">
                     <span className="w-full md:w-[320px] xl:w-[350px] h-[27px] text-[16px] md:text-[18px] xl:text-[20px] font-semibold text-primary-0 pb-2 md:pb-4 xl:pb-6">
                         No doubt, Spend.In is the best!
                     </span>
@@ -93,7 +93,7 @@ const TestimonialsSection = () => {
                     </div>
                 </div>
             </div>
-            <div className="flex flex-row w-full md:hidden xl:block md:w-[122px] h-[50px] gap-4 md:gap-6 xl:gap-8 items-center justify-center mt-4 md:mt-0">
+            <div className="flex-row w-full hidden xl:flex md:w-[122px] h-[50px] gap-4 md:gap-6 xl:gap-8 items-center justify-center mt-4 md:mt-0">
                 <button className="w-[50px] h-[50px] flex items-center justify-center">
                     <svg width="48" height="50" viewBox="0 0 48 50" fill="none" xmlns="http://www.w3.org/2000/svg">
                         <rect width="48" height="50" rx="24" fill="#1A202C" />
@@ -102,7 +102,7 @@ const TestimonialsSection = () => {
                     </svg>
                 </button>
                 <button className="flex w-[50px] h-[50px] bg-primary-500 justify-center items-center rounded-full ">
-                    <svg width="18" height="18" viewBox="0 0 18 18" fill="none" xmlns="http://www.w3.org/2000/svg">
+                    <svg width="48" height="18" viewBox="0 0 18 18" fill="none" xmlns="http://www.w3.org/2000/svg">
                         <path d="M10.8225 4.44727L15.375 8.99977L10.8225 13.5523" stroke="white" strokeWidth="1.5" strokeMiterlimit="10" strokeLinecap="round" strokeLinejoin="round" />
                         <path d="M2.625 9H15.2475" stroke="white" strokeWidth="1.5" strokeMiterlimit="10" strokeLinecap="round" strokeLinejoin="round" />
                     </svg>

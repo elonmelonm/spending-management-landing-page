@@ -1,9 +1,12 @@
 const PricingSection = () => {
     return (
-        <section className="w-full min-h-[500px] xl:h-[1249px] items-center px-4 md:px-12 lg:px-20 xl:px-[120px] py-12 md:py-16 lg:py-20 xl:py-[120px] relative bg-white flex flex-col">
+        <section className="w-full h-[2492px] md:h-full xl:h-[1249px] items-center px-4 md:px-12 lg:px-20 xl:px-[120px] py-12 md:py-16 lg:py-20 xl:py-[120px] relative bg-white flex flex-col">
             <div className="flex flex-col w-full md:w-[568px] md:h-[114px] items-center justify-center mb-8 lg:mb-16 gap-4 md:gap-6 mx-auto">
-                <span className="w-full md:w-[459px] h-[40px] text-secondary-700 font-bold text-[28px] md:text-[40px] xl:text-[44px] text-center">
+                <span className="w-full h-[40px] lg:h-[60px] text-secondary-700 font-bold text-[28px] md:text-[40px] xl:text-[44px] text-center hidden md:block">
                     Ready to Get Started?
+                </span>
+                <span className="w-full h-[40px] lg:h-[60px] text-secondary-700 font-bold text-[28px] md:text-[40px] xl:text-[44px] text-center md:hidden">
+                    Our User Kind Words
                 </span>
                 <div className="w-full md:w-[568px] h-[30px] text-secondary-400 text-center text-sm md:text-base xl:text-lg">
                     Choose a plan that suits your business needs
@@ -30,9 +33,9 @@ const PricingSection = () => {
                 </svg>
             </div>
 
-            <div className="flex flex-col xl:flex-row w-full lg:h-full xl:w-[1200px] rounded-[12px] gap-4 md:gap-6 xl:gap-8 items-center justify-center overflow-x-auto">
+            <div className="flex flex-col xl:flex-row w-full lg: h-full xl:w-[1200px] rounded-[12px] gap-6 md:gap-6 xl:gap-8 items-center justify-center">
                 {/* Free Plan */}
-                <div className="w-full md:w-[384px] xl:w-[420px] h-[420px] md:h-[710px] bg-secondary-100 p-4 md:p-8 xl:p-10 rounded-[12px] flex flex-col ">
+                <div className="w-full md:w-[384px] xl:w-[420px] h-[420p] md: h-[710px] bg-secondary-100 p-4 md:p-8 xl:p-10 rounded-[12px] flex flex-col ">
                     <div className="flex flex-col gap-6 mb-8">
                         <div className="flex flex-col gap-3">
                             <div className="flex flex-row items-center gap-2">
@@ -131,7 +134,7 @@ const PricingSection = () => {
                     </button>
                 </div>
                 {/* Pro Plan */}
-                <div className="w-full md:w-[384px] xl:w-[420px] h-[420px] md:h-[710px] bg-secondary-100 p-4 md:p-8 xl:p-10 rounded-[12px] flex flex-col ">
+                <div className="w-full md:w-[384px] xl:w-[420px] h-[420px] md: h-[710px] bg-secondary-100 p-4 md:p-8 xl:p-10 rounded-[12px] flex flex-col ">
                     <div className="flex flex-col gap-6 mb-8">
                         <div className="flex flex-col gap-3">
                             <div className="flex flex-row justify-between items-center">
@@ -203,7 +206,7 @@ const PricingSection = () => {
                         <div className="w-full md:w-[526px] h-[54px] text-[18px] flex flex-row gap-3">
                             <span>
                                 <svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
-                                    <path d="M12 2C6.49 2 2 6.49 2 12C2 17.51 6.49 22 12 22C17.51 22 22 17.51 22 12C22 6.49 17.51 2 12 2ZM16.78 9.7L11.11 15.37C10.97 15.51 10.78 15.59 10.58 15.59C10.38 15.59 10.19 15.51 10.05 15.37L7.22 12.54C6.93 12.25 6.93 11.77 7.22 11.48C7.51 11.19 7.99 11.19 8.28 11.48L10.58 13.78L15.72 8.64C16.01 8.35 16.49 8.35 16.78 8.64C17.07 8.93 17.07 9.4 16.78 9.7L13.06 12L15.36 14.3Z" fill="#596780" />
+                                    <path d="M12 2C6.49 2 2 6.49 2 12C2 17.51 6.49 22 12 22C17.51 22 22 17.51 22 12C22 6.49 17.51 2 12 2ZM16.78 9.7L11.11 15.37C10.97 15.51 10.78 15.59 10.58 15.59C10.38 15.59 10.19 15.51 10.05 15.37L7.22 12.54C6.93 12.25 6.93 11.77 7.22 11.48C7.51 11.19 7.99 11.19 8.28 11.48L10.58 13.78L15.72 8.64C16.01 8.35 16.49 8.35 16.78 8.64C17.07 8.93 17.07 9.4 16.78 9.7Z" fill="#9CD323" />
                                 </svg>
                             </span>
                             <p className="w-[284px] h-[27px] font-medium text-secondary-700 text-[18px]">
@@ -238,7 +241,7 @@ const PricingSection = () => {
                     </button>
                 </div>
                 {/* Ultimate Plan */}
-                <div className="w-full md:w-[384px] xl:w-[420px] h-[420px] md:h-[710px] bg-secondary-100 p-4 md:p-8 xl:p-10 rounded-[12px] flex flex-col ">
+                <div className="w-full md:w-[384px] xl:w-[420px] h-[420px] md: h-[710px] bg-secondary-100 p-4 md:p-8 xl:p-10 rounded-[12px] flex flex-col ">
                     <div className="flex flex-col gap-6 mb-8">
                         <div className="flex flex-col gap-3">
                             <div className="flex flex-row w-[169px] h-[48px] items-center gap-2">
@@ -256,7 +259,7 @@ const PricingSection = () => {
                             </span>
                         </div>
                         <div className="flex flex-row items-center w-[127px] h-[60px] gap-2">
-                            <span className="w-[54px] h-[60px] text-secondary-700 text-[40px] font-semibold ">
+                            <span className="w-[58px] h-[60px] text-secondary-700 text-[40px] font-semibold ">
                                 $33
                             </span>
                             <span className="w-[63px] h-[27px] text-[18px] font-medium text-secondary-400">

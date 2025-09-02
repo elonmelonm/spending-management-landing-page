@@ -22,7 +22,7 @@ const CallToActionSection = () => {
                         </button>
                     </div>
                 </div>
-                <div className="flex items-end w-full md:w-auto justify-center md:justify-end mt-8 md:mt-0 md:hidden lg:block">
+                <div className="flex items-end w-full md:w-auto justify-center md:justify-end mt-8 md:mt-0 md:hidden xl:block">
                     <img className="w-full max-w-[320px] md:max-w-none md:w-[320px] lg:w-[400px] xl:w-[500px]" src={Success} alt="" />
                 </div>
             </div>

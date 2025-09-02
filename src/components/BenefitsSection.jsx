@@ -6,12 +6,12 @@ const BenefitsSection = () => {
     return (
         <section className="w-full h-[1679px] xl:h-[994px] px-7 py-8 xl:p-[120px] items-center relative bg-white flex flex-col">
             <div className="flex flex-col gap-16">
-                <div className="flex flex-col lg:text-center xl:flex-row h-[93px] xl:w-[904px] xl:h-[162px] lg:items-center justify-between">
-                    <div className="flex flex-col w-[147px] lg:w-full xl:min-w-[245px] h-[162px] gap-3">
-                        <span className="w-[110px] h-[15px] lg:w-full xl:min-w-[183px] xl:h-[30px] text-primary-500 font-semibold text-[12px] xl:text-[20px]">
+                <div className="flex flex-col lg:text-center xl:flex-row h-[200px] xl:w-[904px] xl:h-[162px] lg:items-center justify-between">
+                    <div className="flex flex-col w-[147px] lg:w-full xl:min-w-[245px] h-[93px] md:h-[162px] gap-3">
+                        <span className="w-full h-[15px] lg:w-full xl:min-w-[183px] xl:h-[30px] text-primary-500 font-semibold text-[12px] xl:text-[20px]">
                             WHY USE SPEND.IN
                         </span>
-                        <span className="w-[285px] h-[120px] lg:w-full lg:h-full text-secondary-900 font-bold text-[40px] tracking-[-0.03em]">
+                        <span className="w-[285px] h-[90px] lg:w-full lg:h-full text-secondary-900 font-bold text-[30px] tracking-[-0.03em]">
                             Easy, Simple, Affordable
                         </span>
                     </div>
@@ -20,10 +20,10 @@ const BenefitsSection = () => {
                     </p>
                 </div>
 
-                <div className="flex flex-col xl:flex-row items-center w-full xl:w-[1200px] h-[528px] gap-6">
+                <div className="flex flex-col xl:flex-row items-center w-full xl:w-[1200px] h-[528px] gap-8 xl:gap-6">
                     <div className="flex flex-col w-[325px] lg:w-[384px] h-[442px] lg:h-[528px] gap-6">
-                        <div className="lg:w-[384px] h-[384px] rounded-[12px] bg-secondary-100">
-                            <img src={Invoice} alt="" />
+                        <div className="w-full h-[180px] md:h-[384px] rounded-[12px] bg-secondary-100">
+                            <img src={Invoice} alt="" className="w-full h-full object-cover" />
                         </div>
                         <div className="flex flex-col lg:w-[384px] h-[120px] gap-3">
                             <span className="h-[36px] text-[24px] font-semibold text-secondary-900">

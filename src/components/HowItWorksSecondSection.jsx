@@ -28,7 +28,7 @@ const HowItWorksSecondSection = () => {
                     </div>
                     <div className="flex flex-col w-[319px] md:w-[350px] lg:w-[450px] xl:w-[576px] px-2.5 py-5 md:p-8 bg-secondary-500 justify-center rounded-[12px] gap-8 md:gap-10">
                         <div className="flex flex-row items-center gap-3 md:gap-4">
-                            <span className='w-8 h-8 md:w-12 md:h-12'>
+                            <span className='w-12 h-12'>
                                 {/* SVG inchangé */}
                                 <svg width="48" height="48" viewBox="0 0 48 48" fill="none" xmlns="http://www.w3.org/2000/svg">
                                     <circle cx="24" cy="24" r="24" fill="#7C5CFC" />
@@ -40,7 +40,7 @@ const HowItWorksSecondSection = () => {
                             </p>
                         </div>
                         <div className="flex flex-row items-center gap-3 md:gap-4">
-                            <span className='w-8 h-8 md:w-12 md:h-12'>
+                            <span className='w-12 h-12'>
                                 {/* SVG inchangé */}
                                 <svg width="48" height="48" viewBox="0 0 48 48" fill="none" xmlns="http://www.w3.org/2000/svg">
                                     <circle cx="24" cy="24" r="24" fill="#7C5CFC" />
@@ -52,7 +52,7 @@ const HowItWorksSecondSection = () => {
                             </p>
                         </div>
                         <div className="flex flex-row items-center gap-3 md:gap-4">
-                            <span className='w-8 h-8 md:w-12 md:h-12'>
+                            <span className='w-12 h-12'>
                                 {/* SVG inchangé */}
                                 <svg width="48" height="48" viewBox="0 0 48 48" fill="none" xmlns="http://www.w3.org/2000/svg">
                                     <circle cx="24" cy="24" r="24" fill="white" />

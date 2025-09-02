@@ -20,7 +20,7 @@ const HowItWorksSection = () => {
                 </div>
             </div>
 
-            <div className="flex flex-col md:flex-row justify-between items-center w-full md:w-[700px] lg:w-[900px] xl:w-[944px] gap-8 mb-16">
+            <div className="flex flex-col lg:flex-row justify-between items-center w-full md:w-[700px] lg:w-[900px] xl:w-[944px] gap-8 mb-16">
                 {/* Step 1 */}
                 <div className="flex relative w-[225px] h-[309px] gap-8">
                     <span className="absolute top-0 left-0 z-10">
@@ -119,7 +119,7 @@ const HowItWorksSection = () => {
                     </div>
                 </div>
             </div>
-            <div className="absolute bottom-8 flex flex-col md:flex-row w-[319px] h-[128px] md:w-[344px] md:h-[52px] gap-4 items-center">
+            <div className="lg:absolute bottom-8 flex flex-col md:flex-row w-[319px] h-[128px] md:w-[344px] md:h-[52px] gap-4 items-center">
                 <button className="w-full md:w-[187px] h-[52px] text-primary-0 bg-primary-500 border-none rounded-[30px]">
                     Get a Free Demo
                 </button>
